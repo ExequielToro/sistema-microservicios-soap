@@ -1,0 +1,33 @@
+# Archivos de NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Archivos de compilación de Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Configuración de IDEs (VS Code, IntelliJ, etc.)
+*.iml
+.idea/
+.vscode/
+
+# Archivos temporales y de logs
+*.log
+*.tmp
+*.swp
+*.bak
+
+# Maven / Gradle (si usas)
+target/
+out/
+.gradle/
