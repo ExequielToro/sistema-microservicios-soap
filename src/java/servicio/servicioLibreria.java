@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/WebServices/WebService.java to edit this template
- */
+
 package servicio;
 
 import java.util.List;
@@ -13,9 +10,14 @@ import modelo.Producto;
 import modelo.ProductoDao;
 
 /**
+ * Servicio web SOAP para gestión de productos.
+ * Expone operaciones CRUD para productos mediante procedimientos almacenados en Oracle.
  *
- * @author sa.olea
+ * @author Pablo.T
+ * @version 1.0
+ * @since 2025-05-21
  */
+
 @WebService(serviceName = "servicioLibreria")
 public class servicioLibreria {
 

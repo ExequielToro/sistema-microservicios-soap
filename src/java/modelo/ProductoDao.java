@@ -1,7 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package modelo;
 import java.sql.*;
 import java.util.ArrayList;
@@ -9,6 +6,17 @@ import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import oracle.jdbc.OracleTypes;
+
+
+/**
+ * Clase DAO (Data Access Object) que gestiona la conexión entre la aplicación y la base de datos
+ * para operaciones CRUD sobre la entidad Producto.
+ * Utiliza procedimientos almacenados de Oracle para realizar las operaciones.
+ *
+ * @author Pablo.T
+ * @version 1.0
+ * @since 2025-05-21
+ */
 
 public class ProductoDao {
     Conexion conn;

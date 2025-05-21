@@ -1,13 +1,15 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package modelo;
 
 /**
+ * Clase que representa un producto del sistema de aire acondicionado.
+ * Contiene atributos básicos como nombre, precio, stock, BTU y marca.
  *
- * @author pablo
+ * @author Pablo.T
+ * @version 1.0
+ * @since 2025-05-21
  */
+
 public class Producto {
     
     private int id_producto;
